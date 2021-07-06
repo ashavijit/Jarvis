@@ -37,12 +37,12 @@ recognition.addEventListener('result', (e)=>{
       console.log('opening youtube')
       window.open('https://www.youtube.com/watch?v=5qIJ7tQ2QbM&list=RD5qIJ7tQ2QbM&start_radio=1')
     }
-     if (text.includes ('Open github')){
+     if (text.includes ('Open GitHub')){
        p=document.createElement('p');
        p.classList.add('replay');
-       p.innerText='launching github';
+       p.innerText='opening GitHub';
        texts.appendChild(p)
-       console.log('opening github')
+       console.log('opening GitHub')
        window.open ('https://github.com/ashavijit')
      }
     p = document.createElement('p');
