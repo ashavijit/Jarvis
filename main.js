@@ -42,7 +42,7 @@ recognition.addEventListener('result', (e)=>{
        p.classList.add('replay');
        p.innerText='launching github';
        texts.appendChild(p)
-       console.log('launching github')
+       console.log('opening github')
        window.open ('https://github.com/ashavijit')
      }
     p = document.createElement('p');
