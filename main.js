@@ -37,7 +37,7 @@ recognition.addEventListener('result', (e)=>{
       console.log('opening youtube')
       window.open('https://www.youtube.com/watch?v=5qIJ7tQ2QbM&list=RD5qIJ7tQ2QbM&start_radio=1')
     }
-     if (text.includes ('Open Github')){
+     if (text.includes ('open Github')){
        p=document.createElement('p');
        p.classList.add('replay');
        p.innerText='opening github';
@@ -45,7 +45,7 @@ recognition.addEventListener('result', (e)=>{
        console.log('opening github')
        window.open ('https://github.com/ashavijit')
      }
-     if (text.includes ('Open WhatsApp')){
+     if (text.includes ('open WhatsApp')){
        p=document.createElement('p');
        p.classList.add('replay');
        p.innerText='opening whatsapp';
@@ -53,7 +53,7 @@ recognition.addEventListener('result', (e)=>{
        console.log('opening WhatsApp')
        window.open ('https://web.whatsapp.com/')
      }
-     if (text.includes ('Open Instagram')){
+     if (text.includes ('open Instagram')){
       p=document.createElement('p');
       p.classList.add('replay');
       p.innerText='opening instagram';
@@ -61,7 +61,7 @@ recognition.addEventListener('result', (e)=>{
       console.log('opening instagram')
       window.open ('https://www.instagram.com/')
     }
-    if (text.includes ('Open Facebook')){
+    if (text.includes ('open Facebook')){
       p=document.createElement('p');
       p.classList.add('replay');
       p.innerText='opening facebook';
